@@ -10,6 +10,11 @@ body {
 h1, #nav a {
 	font-family: "Qanelas Soft DEMO", Futura, Arial, Sans-Serif;
 	color: white;
+	font-weight: 200;
+}
+
+h1 strong {
+	font-weight: 800;
 }
 
 a {
