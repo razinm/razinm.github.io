@@ -17,7 +17,7 @@
 		url('AlexandriaFLF-Bold.woff') format('woff'),
 		url('AlexandriaFLF-Bold.ttf') format('truetype');
 	font-weight: bold;
-	font-style: normal;
+	font-style: 500;
 }
 
 @font-face {
@@ -27,7 +27,7 @@
 		url('AlexandriaFLF.woff') format('woff'),
 		url('AlexandriaFLF.ttf') format('truetype');
 	font-weight: normal;
-	font-style: normal;
+	font-style: 500;
 }
 
 @font-face {
