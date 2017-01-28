@@ -16,8 +16,8 @@
 	src: url('AlexandriaFLF-Bold.eot?#iefix') format('embedded-opentype'),
 		url('AlexandriaFLF-Bold.woff') format('woff'),
 		url('AlexandriaFLF-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: 500;
+	font-weight: 500;
+	font-style: normal;
 }
 
 @font-face {
@@ -26,8 +26,8 @@
 	src: url('AlexandriaFLF.eot?#iefix') format('embedded-opentype'),
 		url('AlexandriaFLF.woff') format('woff'),
 		url('AlexandriaFLF.ttf') format('truetype');
-	font-weight: normal;
-	font-style: 500;
+	font-weight: 500;
+	font-style: normal;
 }
 
 @font-face {
