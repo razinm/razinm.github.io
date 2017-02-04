@@ -2,6 +2,7 @@
 body {
 	width: 100%;
 	background: url(../images/background.png) repeat fixed;
+	background-size: 100% 60.7%;
 	font-family: "AlexandriaFLF", Georgia, serif;
 	color: #fff;
 	text-align: center;
@@ -23,7 +24,7 @@ a {
 	text-decoration: underline;
 }
 
-a:hover {
+a:hover, a:focus {
 	color: white;
 }
 
@@ -100,6 +101,32 @@ a:hover {
 	width: 300px;
 }
 
+.other-link .row {
+	padding: 10px 0;
+}
+
+.other-icon, .other-icon-vertical {
+	text-align: center;
+}
+
+.other-icon img {
+	height: 30px;
+	margin-top: 3px;
+}
+
+.other-icon-vertical img {
+	width: 30px;
+}
+
+.other-text {
+	padding: 0;
+}
+
+.other-url {
+	font-size: 10.5px;
+	margin-top: -10.5px;
+}
+
 #footer {
 	width: 100%;
 }
@@ -107,6 +134,7 @@ a:hover {
 @media only screen and (min-width: 768px) {
 	body {
 		background-attachment: scroll;
+		background-size: 702px 426px;
 	}
 	#content {
 		max-width: 1000px;
