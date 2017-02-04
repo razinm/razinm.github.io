@@ -1,8 +1,9 @@
 @charset "UTF-8";
 body {
 	width: 100%;
-	background: url(../images/background.png) repeat fixed;
+	background: url(../images/background.png) repeat;
 	background-size: 300px 182px;
+	background-attachment: fixed;
 	font-family: "AlexandriaFLF", Georgia, serif;
 	color: #fff;
 	text-align: center;
