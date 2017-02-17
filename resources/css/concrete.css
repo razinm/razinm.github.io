@@ -2,7 +2,6 @@
 body {
 	width: 100%;
 	background: url(../images/background.png) repeat;
-	background-size: 300px 182px;
 	background-attachment: fixed;
 	font-family: "AlexandriaFLF", Georgia, serif;
 	color: #fff;
@@ -135,7 +134,6 @@ a:hover, a:focus {
 @media only screen and (min-width: 768px) {
 	body {
 		background-attachment: scroll;
-		background-size: 702px 426px;
 	}
 	#content {
 		max-width: 1000px;
