@@ -60,11 +60,10 @@ a:hover, a:focus {
 #nav {
 	margin-top: 15px;
 	text-align: center;
-	width: 109%;
+	width: 100%;
 	position: absolute;
 	left: 0;
 	right:0;
-	background-color: white;
 }
 
 #nav a {
@@ -120,6 +119,13 @@ a:hover, a:focus {
 
 .footer {
 	padding-top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+	#nav {
+		width: 109%;
+		background-color: white;
+	}
 }
 
 @media only screen and (min-width: 768px) {
