@@ -32,17 +32,6 @@ a:hover, a:focus {
 	width: 100%;
 }
 
-.nav-border {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	border-bottom: 20px solid white;
-}
-
 #content {
 	max-width: 400px;
 	margin: auto auto 0 auto;
@@ -71,9 +60,11 @@ a:hover, a:focus {
 #nav {
 	margin-top: 15px;
 	text-align: center;
-	width: 100%;
+	width: 109%;
 	position: absolute;
 	left: 0;
+	right:0;
+	background-color: white;
 }
 
 #nav a {
@@ -135,6 +126,18 @@ a:hover, a:focus {
 	body {
 		background-attachment: scroll;
 	}
+	
+	.nav-border {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-bottom: 20px solid white;
+	}
+	
 	#content {
 		max-width: 1000px;
 		text-align: left;
